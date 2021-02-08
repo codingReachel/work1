@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login and regist</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="box">
+        <div class="loginType">
+            <span class="pwd">密码登录</span>
+            <span class="mesg">短信登录</span>
+        </div>
+
+        <div class="info">
+            <div class="txt">
+                <input type="text" name="username" id="username" placeholder="你的手机号/邮箱">
+            </div>
+
+            <div class="txt">
+                <input type="text" name="pwd" id="pwd"
+                    onkeyup="document.getElementById('pwd').value=this.value.replace(/./g,'*');" placeholder="密码">
+            </div>
+
+            <div class="explain">
+                <label for="remembered">
+                    <input type="checkbox" name="remembered" id="remembered" checked="checked" class="check">记住我
+                </label>
+                <span class="gray">不是自己的电脑上不要勾选此项</span>
+                <a href="" target="_blank">无法验证？</a>
+                <a href="" target="_blank">忘记密码？</a>
+            </div>
+
+            <div class="loginButton">
+                <a href="" target="_blank" class="login">登录</a>
+                <a href="" target="_blank">注册</a>
+            </div>
+        </div>
+
+        <div class="loginWay">
+            <span class="byWB">
+                <img src="images/weibo.png" width="34px" align="top">
+                <a href="" target="_blank">微博账号登录</a>
+            </span>
+            <span class="byQQ">
+                <img src="images/qq.png" width="34px" align="top">
+                <a href="" target="_blank">QQ账号登录</a>
+            </span>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 756px;
+    height: 535px;
+    margin: 80px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.loginType {
+    height: 44px;
+    font-size: 24px;
+    padding: 64px 30px 0px 30px;
+
+}
+
+.loginType .pwd {
+    color: #2fb0e0;
+}
+
+.loginType .mesg {
+    margin: 0px 0px 0px 32px;
+}
+
+.info {
+    width: 628px;
+    height: 332px;
+    padding: 0px 0px 0px 32px;
+}
+
+.info .txt input {
+    width: 610px;
+    height: 63px;
+    font-size: 24px;
+    border: 1px solid #9199a1;
+    margin: 0px 0px 52px 0px;
+    padding: 0px 0px 0px 18px;
+    border-radius: 5px;
+}
+
+.info .explain {
+    width: 646px;
+    height: 40px;
+    font-size: 18px;
+}
+
+.info .explain .gray {
+    color: #9199a1;
+    margin: 0px 90px 0px 16px;
+}
+
+.info .explain a {
+    color: #2fb0e0;
+}
+
+.info .explain .check {
+    margin: 0px 16px 0px 0px;
+    width: 18px;
+    height: 18px;
+}
+
+.info .loginButton {
+    width: 646px;
+}
+
+.info .loginButton a {
+    width: 290px;
+    height: 60px;
+    font-size: 24px;
+    color: black;
+    border: 1px solid #9199a1;
+    text-align: center;
+    line-height: 60px;
+    display: inline-block;
+}
+
+.info .loginButton .login {
+    margin-right: 42px;
+    background-color: #00a7de;
+    color: white;
+}
+
+.info .loginButton a:hover {
+    background-color: #00a7de;
+    color: white;
+}
+
+.loginWay {
+    width: 632px;
+    height: 34px;
+    font-size: 18px;
+    padding: 20px 0px 0px 32px;
+}
+
+.loginWay a {
+    height: 34px;
+    font-size: 18px;
+    color: black;
+    line-height: 34px;
+    margin-right: 38px;
+    display: inline-block;
+}
